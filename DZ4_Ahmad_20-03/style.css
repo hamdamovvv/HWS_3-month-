@@ -1,0 +1,60 @@
+body {
+	background: powderblue;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: steelblue;
+}
+.wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+.som label{
+	color: darkblue;
+	font-weight: 500;
+	font-size: 20px;
+}
+.euro label {
+	color: darkmagenta;
+	font-weight: 500;
+	font-size: 20px;
+}
+.som input{
+	border-radius: 10px;
+	width: 200px;
+	height: 20px;
+	color: indigo;
+	font-size: 18px;
+	font-weight: 400;
+	background: gold;
+}
+.euro input {
+	border-radius: 10px;
+	width: 200px;
+	height: 20px;
+	font-size: 18px;
+	font-weight: 400;
+	background: gold;
+}
+.euro {
+	margin: 20px;
+}
+.usd label {
+	color: teal;
+	font-weight: 500;
+	font-size: 20px;
+    }
+.usd input {
+	border-radius: 10px;
+	width: 200px;
+	height: 20px;
+	font-size: 18px;
+	font-weight: 400;
+	background: gold;
+}
+

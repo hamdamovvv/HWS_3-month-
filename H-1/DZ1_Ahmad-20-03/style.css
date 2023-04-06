@@ -1,0 +1,17 @@
+.validation{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px gray solid;
+    width: 55vh;
+    height: 25vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 2vh;
+}
